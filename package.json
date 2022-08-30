@@ -1,0 +1,33 @@
+{
+  "name": "merge-material",
+  "version": "1.0.17",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/lab": "^5.0.0-alpha.97",
+    "@mui/material": "^5.10.3",
+    "@swc/helpers": "^0.4.11",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@uxpin/merge-cli": "^2.8.0",
+    "parcel": "^2.7.0"
+  }
+}
