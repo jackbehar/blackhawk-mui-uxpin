@@ -1,6 +1,6 @@
 {
-  "name": "merge-material",
-  "version": "1.0.17",
+  "name": "blackhawk-mui-uxpin",
+  "version": "0.0.0",
   "source": "src/index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
@@ -10,6 +10,7 @@
     "@mui/icons-material": "^5.10.3",
     "@mui/lab": "^5.0.0-alpha.97",
     "@mui/material": "^5.10.3",
+    "@mui/system": "^5.10.3",
     "@swc/helpers": "^0.4.11",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
